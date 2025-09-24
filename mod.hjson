@@ -1,0 +1,11 @@
+name: "europa"
+description: 
+'''
+Europa is a naval/ocean themed planet mod, reusing little of the existing content.
+'''
+author: "lurie"
+minGameVersion: 146
+version: "0.0.1"
+displayName: "Europa"
+subtitle: "Magic the Gathering"
+repo: "lost-jitte/Europa-Mod"
