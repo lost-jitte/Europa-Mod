@@ -3,3 +3,4 @@ name: Lime
 itemDrop: lime
 variants: 3
 oreThreshold: 0.9
+mapColor: c4bbb3
