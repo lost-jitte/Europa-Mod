@@ -1,5 +1,5 @@
 type: oreBlock
-name: Lime
+name: Lime Ore
 itemDrop: lime
 variants: 3
 mapColor: c4bbb3
