@@ -14,7 +14,7 @@
 "faceTarget": true,
 description: "Protects the Seaadrome core. Can mine basic resources and build."
 mineTier: 2
-mineSpeed: 1.5
+mineSpeed: 5
 mineRange: 40
 mineItems: [
   copper
