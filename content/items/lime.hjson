@@ -5,4 +5,3 @@ cost: 0.5
 alwaysUnlocked: true
 color: c4bbb3
 research: seadrome
-hiddenOnPlanets: [serpulo, erekir]
