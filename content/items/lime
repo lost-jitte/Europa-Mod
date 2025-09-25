@@ -1,1 +1,8 @@
-
+name: Lime
+description: "A key material derrived from natural limestone deposits. Used in most buildings and to make concrete."
+hardness: 1
+cost: 0.5
+alwaysUnlocked: true
+color: c4bbb3
+research: seadrome
+hiddenOnPlanets: [serpulo, erekir]
