@@ -19,7 +19,6 @@
 	allowLaunchToNumbered: false,
     radius: 1,
     hiddenItems: [
-        "copper",
         "lead",
         "scrap",
         "graphite",
