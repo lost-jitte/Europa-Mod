@@ -12,6 +12,7 @@
 "outlineColor": "1d151d",
 "engineOffset": 5,
 "faceTarget": true,
+name: "Nautilus"
 description: "Protects the Seaadrome core. Can mine basic resources and build."
 mineTier: 2
 mineSpeed: 5
