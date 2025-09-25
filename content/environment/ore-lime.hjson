@@ -1,4 +1,4 @@
-type: OverlayFloor
+type: oreBlock
 name: Lime
 itemDrop: lime
 variants: 3
