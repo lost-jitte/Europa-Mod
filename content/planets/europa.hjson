@@ -10,7 +10,7 @@
     drawOrbit: true,
     accessible: true,
     alwaysUnlocked: true,
-    defaultCore: "core-2",
+    defaultCore: "seadrome",
     sectorSeed: 69,
     startSector: 8,
     sectorSize: 1,
