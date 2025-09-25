@@ -1,0 +1,56 @@
+{
+  "type": "GenericCrafter",
+  "name": "Concrete Mixer",
+  "description": "A factory that prodduces concrete with lime and water.",
+  "craftEffect": "none",
+  "requirements": [
+    {"item": "copper", "amount": 30},
+    {"item": "lime", "amount": 30}
+  ],
+  "research": lime,
+  "category": "crafting",
+  "outputItem": {
+    "item": "concrete", 
+    "amount": 3
+  },
+  "craftTime": 60,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 70,
+  "itemCapacity": 40,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawDefault" 
+      },
+      {
+        "type": "DrawArcSmelt" 
+      }
+    ]
+  },
+  "fogRadius": 5,
+  "researchCost": [
+    {"item": "copper", "amount": 240},
+    {"item": "lime", "amount": 120}
+  ],
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.14,
+  "consumes": {
+    "liquid": {
+      "liquid": "water",
+      "amount": 7
+    },
+    "power": 1.2,
+    "items": {
+      "items": [
+        {"item": "lime", "amount": 3},
+      ]
+    }
+  }
+}
