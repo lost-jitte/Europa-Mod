@@ -42,7 +42,7 @@
   "consumes": {
     "liquid": {
       "liquid": "distilledWater",
-      "amount": 7
+      "amount": 0.11666
     },
     "power": 1.2,
     "items": {
