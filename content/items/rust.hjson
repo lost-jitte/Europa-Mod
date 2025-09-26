@@ -2,5 +2,5 @@ name: Rust
 description: "An early-game material needed to transport electricity."
 hardness: 1
 cost: 0.5
-color: c4bbb3
-research: seadrome
+color: 662f1b
+research: lime
