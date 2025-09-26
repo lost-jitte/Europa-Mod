@@ -43,7 +43,7 @@
   "ambientSoundVolume": 0.14,
   "consumes": {
     "liquid": {
-      "liquid": "water",
+      "liquid": "distilledWater",
       "amount": 7
     },
     "power": 1.2,
