@@ -1,5 +1,5 @@
     generator: "PlanetGenerator",
-    name: "Europa"
+    localizedName: "Europa"
     parent: "serpulo",
     iconColor: 10d7e6,
     orbitRadius: 10,
