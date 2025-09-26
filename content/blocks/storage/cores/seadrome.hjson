@@ -6,6 +6,10 @@ requirements: [
     item: copper,
     amount: 1600
   }
+  {
+    item: lime,
+    amount: 1400
+  }
 ]
 isFirstTier: true
 size: 3
