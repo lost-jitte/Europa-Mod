@@ -1,0 +1,7 @@
+type: oreBlock
+name: Lime
+itemDrop: lime
+variants: 3
+hasColor: true
+mapColor: c4bbb3
+tier: 1
