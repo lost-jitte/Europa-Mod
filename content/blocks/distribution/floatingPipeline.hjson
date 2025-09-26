@@ -1,0 +1,16 @@
+type: Duct
+name: Floating Pipeline
+description: Transports items across land and water.
+category: distribution
+alwaysUnlocked: true
+research: 11k-01-core-essence
+solid: false
+researchCost: [
+  copper/10
+]
+speed: 4
+health: 45
+# bridgeReplacement: 
+requirements: [
+  copper/1
+]
