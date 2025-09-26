@@ -29,11 +29,9 @@
       {
         "type": "DrawDefault" 
       },
-      {
-        "type": "DrawWeave" 
-      }
     ]
   },
+  "craftEffect": "particleEffect"
   "fogRadius": 5,
   "researchCost": [
     {"item": "copper", "amount": 240},
