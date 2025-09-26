@@ -1,4 +1,4 @@
-type: oreBlock
+type: staticWall
 name: Lime
 itemDrop: lime
 variants: 3
