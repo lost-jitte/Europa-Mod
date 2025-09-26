@@ -1,0 +1,8 @@
+"description": "Purified Water used for most purposes",
+"gas": false,
+"cache": "water",
+"barColor": "71a7de"
+color: 71a7de
+research: {
+    parent: "water",
+}
