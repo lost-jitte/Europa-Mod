@@ -4,8 +4,8 @@
   "description": "Sifts through seawater and separates rust.",
   "craftEffect": "none",
   "requirements": [
-    {"item": "copper", "amount": 30},
-    {"item": "lime", "amount": 30}
+    {"item": "copper", "amount": 20},
+    {"item": "lime", "amount": 20}
   ],
   "research": lime,
   "category": "crafting",
@@ -14,7 +14,7 @@
     "amount": 1
   },
   "craftTime": 60,
-  "size": 2,
+  "size": 1,
   "hasLiquids": true,
   "liquidCapacity": 70,
   "itemCapacity": 40,
