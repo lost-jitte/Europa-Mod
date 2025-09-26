@@ -1,70 +1,75 @@
-    generator: "PlanetGenerator",
-    localizedName: "Europa"
-    parent: "serpulo",
-    iconColor: 10d7e6,
-    orbitRadius: 10,
-    hasAtmosphere: true,
-    updateLighting: false,
-    atmosphereRadIn: 0.01,
-    atmosphereRadOut: 0.3,
-    atmosphereColor: 4caed9,
-    drawOrbit: true,
-    accessible: true,
-    alwaysUnlocked: true,
-    defaultCore: "seadrome",
-    sectorSeed: 69,
-    startSector: 8,
-    sectorSize: 1,
-    clearSectorOnLose: true,
-    allowSectorInvasion: false,
-	allowLaunchToNumbered: false,
-    radius: 1,
-    hiddenItems: [
-        "lead",
-        "scrap",
-        "graphite",
-        "coal",
-        "titanium",
-        "thorium",
-        "silicon",
-        "plastanium",
-        "phase-fabric",
-        "surge-alloy",
-        "spore-pod",
-        "sand",
-        "blast-compound",
-        "pyratite",
-        "metaglass",
-        "beryllium",
-        "oxide",
-        "tungsten",
-        "carbide",
-        "fissile-matter",
-        "dormant-cyst"
-    ],
+localizedName: Europa
+description: A planet of vast oceans with little land.
+alwaysUnlocked: true
+mesh: {
+  type: NoiseMesh
+  planet: europa
+  seed: 69
+  divisions: 5
+  color1: 498a8a
+  color2: 52e5ff
+  radius: 1.2
+  octaves: 4
+  persistence: 1
+  scale: 0.75
+  mag: 1
+}
 cloudMesh: {
   type: HexSkyMesh
-  planet: Europa
-  seed: 2
-  speed: 3
-  radius: 0.05
-  divisions: 5
-  color: 52e5ff
-  octaves: 2
-  persistence: 1
-  scl: 2
-  thresh: 0.45
+  planet: europa
+  seed: 15
+  speed: 0.32
+  radius: 0.08
+  divisions: 6
+  color: ffffff
+  octaves: 3
+  persistence: 0.7
+  scl: 1
+  thresh: 0.6
 }
-    "mesh": {
-      "type": "NoiseMesh",
-      "planet": "Europa",
-      "seed": 27,
-      "color1": " ffffff",
-      "color2": "498a8a",
-      "divisions": 4,
-      "radius": 0.8,
-      "octaves": 8,
-      "persistence": 1,
-      "scale": 2,
-      "mag": 1
-    }
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowSectorInvasion: true
+startSector: 0
+orbitSpacing: 4
+radius: 1.2
+minZoom: 1.5
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: false
+orbitRadius: 24
+updateLighting: false
+sectorSeed: 69420
+bloom: false
+visible: true
+atmosphereColor: 5992af
+iconColor: 4b64a9
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-shard
+parent: sun
+solarSystem: sun
+launchCandidates: []
+hiddenItems: ["beryllium", "carbide", "tungsten", "fissile-matter", "oxide"]
+allowLaunchToNumbered: false
