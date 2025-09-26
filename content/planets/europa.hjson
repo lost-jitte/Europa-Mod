@@ -4,7 +4,7 @@ alwaysUnlocked: true
 mesh: {
   type: NoiseMesh
   planet: europa
-  seed: 69
+  seed: 10
   divisions: 5
   color1: 498a8a
   color2: 52e5ff
