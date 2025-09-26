@@ -1,0 +1,22 @@
+{
+  "type": "PowerNode",
+  "name": "Power Node",
+  "description": "A power node that can have connections in all directions.",
+  "size": 1,
+  "health": 90,
+  "laserRange": 10,
+  "maxNodes": 4,
+  "requirements": [
+    {
+      "item": "gold",
+      "amount": 10
+    }
+  ],
+  "category": "power",
+  "research": "seadrome",
+  "powerCapacity": 500,
+  "laserColor1": "fffab3",
+  "laserColor2": "ffffff",
+  "laserScale": 0.6,
+  "researchCostMultiplier": 1.2
+}
