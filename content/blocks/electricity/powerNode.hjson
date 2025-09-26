@@ -8,7 +8,7 @@
   "maxNodes": 4,
   "requirements": [
     {
-      "item": "gold",
+      "item": "rust",
       "amount": 10
     }
   ],
