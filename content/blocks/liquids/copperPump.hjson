@@ -1,0 +1,12 @@
+type: Pump
+name: Copper Pump
+description: Slowly pumps liquid from liquid tiles.
+size: 1
+category: liquid
+squareSprite: false
+research: seadrome
+requirements: [
+  copper/30
+]
+pumpAmount: 0.1
+researchCostMultiplier: 1.5
