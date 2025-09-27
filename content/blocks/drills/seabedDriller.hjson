@@ -19,9 +19,9 @@ research: {
 }
 rotateSpeed: 3
 hardnessDrillMultiplier: 50
-drillTime: 200
+drillTime: 600
 hasPower: false
-tier: 1
+tier: 2
 shake: 0.5
 itemCapacity: 15
 requirements: [
