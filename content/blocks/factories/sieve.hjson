@@ -8,7 +8,7 @@
     {"item": "lime", "amount": 20}
   ],
   "research": {
-    parent: lime,
+    parent: seadrome,
     requirements: [
         copper/40,
         lime/40
