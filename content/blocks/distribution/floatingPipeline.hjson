@@ -5,7 +5,9 @@ category: distribution
 alwaysUnlocked: true
 research: {
   parent: seadrome,
-  requirements: copper/10
+  requirements: [
+    copper/10
+  ]
 }
 solid: false
 speed: 4
