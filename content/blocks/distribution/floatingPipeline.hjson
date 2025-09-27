@@ -3,11 +3,11 @@ name: Floating Pipeline
 description: Transports items across land and water.
 category: distribution
 alwaysUnlocked: true
-research: seadrome
+research: {
+  parent: seadrome,
+  requirements: copper/10
+}
 solid: false
-researchCost: [
-  copper/10
-]
 speed: 4
 health: 45
 placeableLiquid: true
