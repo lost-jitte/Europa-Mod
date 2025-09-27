@@ -3,7 +3,7 @@ name: Floating Pipeline
 description: Transports items across land and water.
 category: distribution
 alwaysUnlocked: true
-research: 11k-01-core-essence
+research: seadrome
 solid: false
 researchCost: [
   copper/10
