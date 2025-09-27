@@ -13,6 +13,7 @@ research: {
     }
   ]
 }
+rotateSpeed: 3
 hardnessDrillMultiplier: 50
 drillTime: 200
 hasPower: false
