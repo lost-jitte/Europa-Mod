@@ -7,7 +7,13 @@
     {"item": "copper", "amount": 20},
     {"item": "lime", "amount": 20}
   ],
-  "research": lime,
+  "research": {
+    parent: lime,
+    requirements: [
+        copper/40,
+        lime/40
+    ]
+  }
   "category": "crafting",
   "outputItem": {
     "item": "rust", 
