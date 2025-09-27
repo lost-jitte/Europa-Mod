@@ -10,6 +10,7 @@ researchCost: [
 ]
 speed: 4
 health: 45
+placeableLiquid: true
 # bridgeReplacement: 
 requirements: [
   copper/1
