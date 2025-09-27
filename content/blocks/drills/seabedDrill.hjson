@@ -1,4 +1,4 @@
-type: BurstDrill
+type: Drill
 name: Seabed Driller
 description: Drills resources found on the seabed.
 size: 2
@@ -14,7 +14,7 @@ research: {
   ]
 }
 hardnessDrillMultiplier: 50
-drillTime: 75
+drillTime: 200
 hasPower: false
 tier: 1
 shake: 0.5
