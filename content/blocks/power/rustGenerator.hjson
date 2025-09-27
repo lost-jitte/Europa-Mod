@@ -1,21 +1,19 @@
 type: ConsumeGenerator
-name: Ignition Generator
-description: Burns flammable materials to create small amounts of power.
+name: Rust Generator
+description: Uses rust and seawater to generate power.
 size: 1
 category: power
 research: {
-  parent: 11k-01-core-essence
-  objectives: [
-    {
-      type: OnSector
-      preset: 19s-02-ignition
-    }
+  parent: seadrome
+  requirements: [
+    rust/40
+    copper/40
   ]
 }
 squareSprite: false
 requirements: [
-  01a-01-item-ferrinite/30
-  01a-02-item-demetite/30
+  rust/20
+  copper/20
 ]
 consumes: {
   items: [
