@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Concrete Mixer",
-  "description": "A factory that prodduces concrete with lime and water.",
+  "description": "A factory that prodduces concrete with lime and distilled water.",
   "craftEffect": "none",
   "requirements": [
     {"item": "copper", "amount": 30},
