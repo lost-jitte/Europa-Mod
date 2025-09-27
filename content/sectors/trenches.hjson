@@ -1,6 +1,7 @@
 captureWave: 10
-planet: asthosus
+planet: europa
 sector: 0
 research: seadrome
 difficulty: 1
 alwaysUnlocked: true
+description: "The beginning."
