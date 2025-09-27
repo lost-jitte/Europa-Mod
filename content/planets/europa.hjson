@@ -67,9 +67,9 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: core-shard
+defaultCore: seadrome
 parent: sun
 solarSystem: sun
 launchCandidates: []
-hiddenItems: ["beryllium", "carbide", "tungsten", "fissile-matter", "oxide"]
+hiddenItems: ["beryllium", "carbide", "tungsten", "fissile-matter", "oxide", "lead", "thorium", "silicon"]
 allowLaunchToNumbered: false
