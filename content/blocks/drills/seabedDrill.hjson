@@ -12,6 +12,10 @@ research: {
       preset: trenches
     }
   ]
+  requirements: [
+    copper/40
+    lime/25
+  ]
 }
 rotateSpeed: 3
 hardnessDrillMultiplier: 50
