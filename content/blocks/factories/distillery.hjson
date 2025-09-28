@@ -23,7 +23,6 @@
   "hasPower": true,
   "hasLiquids": true,
   "liquidCapacity": 70,
-  "itemCapacity": 40,
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -50,7 +49,7 @@
   "ambientSoundVolume": 0.14,
   "consumes": {
     "liquid": {
-      "liquid": "distilledWater",
+      "liquid": "water",
       "amount": 0.5
     },
     "power": 1.2,
