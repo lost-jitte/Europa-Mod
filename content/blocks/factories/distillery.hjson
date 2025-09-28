@@ -36,6 +36,7 @@
        {
          "type": "DrawLiquidTile",
          "suffix": "-liquid"
+         "drawLiquid": "water"
        },
        {
          "type": "DrawRegion",
