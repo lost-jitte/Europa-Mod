@@ -31,9 +31,17 @@
 #        "type": "DrawRegion",
 #        "suffix": "-bottom"
 #      },
-      {
-        "type": "DrawDefault" 
-      },
+       {
+         "type": "DrawDefault" 
+       },
+#      {
+#        "type": "DrawLiquid",
+#        "suffix": "-liquid"
+#      },
+#      {
+#        "type": "DrawRegion",
+#        "suffix": "-top"
+#      },
     ]
   },
   "craftEffect": "pulverize"
