@@ -34,7 +34,7 @@
          "type": "DrawDefault" 
        },
        {
-         "type": "DrawLiquid",
+         "type": "DrawLiquidTile",
          "suffix": "-liquid"
        },
        {
