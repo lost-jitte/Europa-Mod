@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "Distillery",
+  "description": "Purifies water.",
+  "craftEffect": "none",
+  "requirements": [
+    {"item": "copper", "amount": 25},
+    {"item": "lime", "amount": 25},
+    {"item": "rust", "amount": 10}
+  ],
+  "research": {
+    parent: seadrome,
+    requirements: [
+       copper/50,
+       lime/50,
+        rust/20
+    ]
+  }
+  "category": "crafting",
+  "outputLiquid": distilledWater/0.5,
+  "craftTime": 60,
+  "size": 2,
+  "hasPower": true,
+  "hasLiquids": true,
+  "liquidCapacity": 70,
+  "itemCapacity": 40,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+#      {
+#        "type": "DrawRegion",
+#        "suffix": "-bottom"
+#      },
+      {
+        "type": "DrawDefault" 
+      },
+    ]
+  },
+  "craftEffect": "pulverize"
+  "fogRadius": 5,
+  "ambientSound": "smelter",
+  "ambientSoundVolume": 0.14,
+  "consumes": {
+    "liquid": {
+      "liquid": "distilledWater",
+      "amount": 0.5
+    },
+    "power": 1.2,
+  }
+}
