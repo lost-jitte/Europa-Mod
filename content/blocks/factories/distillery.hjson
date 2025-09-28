@@ -31,12 +31,12 @@
          "suffix": "-bottom"
        },
        {
-         "type": "DrawDefault" 
-       },
-       {
          "type": "DrawLiquidTile",
          "suffix": "-liquid"
          "drawLiquid": "water"
+       },
+       {
+         "type": "DrawDefault" 
        },
        {
          "type": "DrawRegion",
