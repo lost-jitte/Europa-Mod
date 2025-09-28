@@ -3,4 +3,4 @@ description: "Building material needed for most buildings."
 hardness: 5
 cost: 0.7
 color: 777777
-research: concreteMixer
+research: rust
