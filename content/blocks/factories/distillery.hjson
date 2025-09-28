@@ -45,7 +45,7 @@
     ]
   },
   craftEffectRange: 1
-  generateEffect: {
+  craftEffect: {
     type: RadialEffect
     layer: 118
     rotationSpacing: 60
