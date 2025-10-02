@@ -1,0 +1,6 @@
+type: Floor
+name: Lime Floor
+itemDrop: lime
+variants: 2
+hasColor: true
+mapColor: c4bbb3
